@@ -6,7 +6,7 @@
   "latest_model_name": "mt5-synaptic-core-websrc-c008-20250831_071126",
   "latest_model_version": 6,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T07:21:31.264098",
+  "last_update_time": "2025-08-31T07:26:28.128049",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T07:21:31.264106",
-    "last_saved_to_hub": "2025-08-31T07:21:31.693424"
+    "last_device_update": "2025-08-31T07:26:28.128060",
+    "last_saved_to_hub": "2025-08-31T07:26:28.620708"
   },
   "dataset_progress": {
     "websrc": {
@@ -106,6 +106,22 @@
       },
       "repo_path": "models/mt5-synaptic-core-websrc-c008-20250831_071129",
       "training_session_id": "session_20250831_063802"
+    },
+    {
+      "model_name": "mt5-cognitive-engine-websrc-c011-20250831_072612",
+      "chunk_number": 11,
+      "dataset_name": "websrc",
+      "timestamp": "2025-08-31T07:26:28.123086",
+      "upload_time": "2025-08-31T07:26:28.123088",
+      "samples_trained": 9001,
+      "metrics": {
+        "upload_time": "2025-08-31T07:26:28.123078",
+        "model_path": "models/mt5-cognitive-engine-websrc-c011-20250831_072612",
+        "local_path": "./model_chunk_11",
+        "milestone_finetunings": 9
+      },
+      "repo_path": "models/mt5-cognitive-engine-websrc-c011-20250831_072612",
+      "training_session_id": "session_20250831_063802"
     }
   ],
   "training_sessions": [
@@ -118,12 +134,7 @@
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "models/mt5-synaptic-core-websrc-c008-20250831_071129",
+  "last_model_path": "models/mt5-cognitive-engine-websrc-c011-20250831_072612",
   "next_action": "continue",
-  "successful_finetunings_count": 9,
-  "last_updated": "2025-08-31T07:26:12.134424",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 9
 }
