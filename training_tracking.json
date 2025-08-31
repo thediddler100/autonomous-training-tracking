@@ -6,7 +6,7 @@
   "latest_model_name": "mt5-neural-forge-websrc-c005-20250831_061756",
   "latest_model_version": 5,
   "training_start_time": "2025-08-31T05:48:23.254607",
-  "last_update_time": "2025-08-31T06:28:08.407104",
+  "last_update_time": "2025-08-31T06:32:31.661953",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T06:28:08.407111",
-    "last_saved_to_hub": "2025-08-31T06:28:08.809650",
+    "last_device_update": "2025-08-31T06:32:31.661964",
+    "last_saved_to_hub": "2025-08-31T06:32:32.129425",
     "loaded_from": "fallback_workspace_root",
     "needs_hub_sync": true,
     "recovery_successful": true
