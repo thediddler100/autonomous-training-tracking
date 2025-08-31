@@ -3,9 +3,9 @@
   "last_processed_sample": 6000,
   "total_samples_processed": 6001,
   "current_chunk": 7,
-  "latest_model_name": "mt5-neural-nexus-websrc-c009-20250831_045918",
+  "latest_model_name": "mt5-synaptic-core-websrc-c008-20250831_052158",
   "training_start_time": "2025-08-31T01:21:55.243098",
-  "last_update_time": "2025-08-31T05:22:14.674495",
+  "last_update_time": "2025-08-31T05:22:16.170470",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -60,9 +60,9 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T05:22:14.674511",
+    "last_device_update": "2025-08-31T05:22:16.170480",
     "last_saved_to_github": "2025-08-31T01:28:46.406188",
-    "last_saved_to_hub": "2025-08-31T05:22:15.606758",
+    "last_saved_to_hub": "2025-08-31T05:22:16.662532",
     "loaded_from": "fallback_workspace_root",
     "needs_hub_sync": true,
     "recovery_successful": true
