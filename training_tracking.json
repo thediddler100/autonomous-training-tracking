@@ -6,7 +6,7 @@
   "latest_model_name": "google/flan-t5-base",
   "latest_model_version": 0,
   "training_start_time": "2025-08-31T05:48:23.254607",
-  "last_update_time": "2025-08-31T06:13:13.295642",
+  "last_update_time": "2025-08-31T06:18:15.619735",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T06:13:13.295656",
-    "last_saved_to_hub": "2025-08-31T06:13:14.138306",
+    "last_device_update": "2025-08-31T06:18:15.619748",
+    "last_saved_to_hub": "2025-08-31T06:18:16.456237",
     "loaded_from": "fallback_workspace_root",
     "needs_hub_sync": true,
     "recovery_successful": true
@@ -77,7 +77,24 @@
       "last_sample": 3000
     }
   },
-  "model_history": [],
+  "model_history": [
+    {
+      "model_name": "mt5-neural-forge-websrc-c005-20250831_061759",
+      "chunk_number": 5,
+      "dataset_name": "websrc",
+      "timestamp": "2025-08-31T06:18:15.615967",
+      "upload_time": "2025-08-31T06:18:15.615969",
+      "samples_trained": 3001,
+      "metrics": {
+        "upload_time": "2025-08-31T06:18:15.615954",
+        "model_path": "models/mt5-neural-forge-websrc-c005-20250831_061759",
+        "local_path": "./model_chunk_5",
+        "milestone_finetunings": 3
+      },
+      "repo_path": "models/mt5-neural-forge-websrc-c005-20250831_061759",
+      "training_session_id": "session_20250831_054823"
+    }
+  ],
   "training_sessions": [
     {
       "session_id": "session_20250831_054823",
@@ -88,12 +105,7 @@
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "",
+  "last_model_path": "models/mt5-neural-forge-websrc-c005-20250831_061759",
   "next_action": "continue",
-  "successful_finetunings_count": 3,
-  "last_updated": "2025-08-31T06:17:58.439376",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 3
 }
