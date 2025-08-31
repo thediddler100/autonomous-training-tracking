@@ -1,12 +1,12 @@
 {
   "session_id": "session_20250831_063802",
-  "last_processed_sample": 2000,
-  "total_samples_processed": 2001,
-  "current_chunk": 3,
+  "last_processed_sample": 3000,
+  "total_samples_processed": 3001,
+  "current_chunk": 4,
   "latest_model_name": "google/flan-t5-base",
   "latest_model_version": 0,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T06:52:01.946962",
+  "last_update_time": "2025-08-31T06:52:03.226206",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T06:52:01.946973",
-    "last_saved_to_hub": "2025-08-31T06:52:02.581173"
+    "last_device_update": "2025-08-31T06:52:03.226213",
+    "last_saved_to_hub": "2025-08-31T06:52:03.719861"
   },
   "dataset_progress": {
     "websrc": {
@@ -70,7 +70,8 @@
       "total_samples_processed": 13000,
       "current_chunk": 4,
       "completion_percentage": 23.076923076923077,
-      "last_updated": "2025-08-31T06:52:01.946886"
+      "last_updated": "2025-08-31T06:52:01.946886",
+      "last_sample": 3000
     }
   },
   "model_history": [],
