@@ -1,12 +1,12 @@
 {
   "session_id": "session_20250831_063802",
-  "last_processed_sample": 3000,
-  "total_samples_processed": 3001,
-  "current_chunk": 4,
-  "latest_model_name": "mt5-neural-forge-websrc-c005-20250831_065644",
-  "latest_model_version": 0,
+  "last_processed_sample": 5000,
+  "total_samples_processed": 5001,
+  "current_chunk": 6,
+  "latest_model_name": "mt5-neural-forge-websrc-c005-20250831_065642",
+  "latest_model_version": 5,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T06:57:03.966923",
+  "last_update_time": "2025-08-31T07:06:44.979580",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,17 +61,16 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T06:57:03.966929",
-    "last_saved_to_hub": "2025-08-31T06:57:05.023810"
+    "last_device_update": "2025-08-31T07:06:44.979589",
+    "last_saved_to_hub": "2025-08-31T07:06:45.567384"
   },
   "dataset_progress": {
     "websrc": {
-      "last_processed_sample": 3000,
-      "total_samples_processed": 13000,
-      "current_chunk": 4,
-      "completion_percentage": 23.076923076923077,
-      "last_updated": "2025-08-31T06:52:01.946886",
-      "last_sample": 3000
+      "last_processed_sample": 6000,
+      "total_samples_processed": 16000,
+      "current_chunk": 7,
+      "completion_percentage": 37.5,
+      "last_updated": "2025-08-31T07:06:44.979503"
     }
   },
   "model_history": [
@@ -104,10 +103,5 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-neural-forge-websrc-c005-20250831_065644",
   "next_action": "continue",
-  "successful_finetunings_count": 5,
-  "last_updated": "2025-08-31T07:06:41.363855",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 6
 }
