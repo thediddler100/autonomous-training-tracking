@@ -90,5 +90,11 @@
   "workspace_version": "2.0",
   "last_model_path": "",
   "next_action": "continue",
-  "successful_finetunings_count": 7
+  "successful_finetunings_count": 7,
+  "models_trained_count": 7,
+  "last_updated": "2025-08-31T03:47:24.429488",
+  "upload_trigger_count": 15,
+  "cleanup_trigger_count": 22,
+  "last_uploaded_model": null,
+  "auto_upload_enabled": true
 }
