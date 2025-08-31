@@ -1,12 +1,12 @@
 {
   "session_id": "session_20250831_063802",
-  "last_processed_sample": 5000,
-  "total_samples_processed": 5001,
-  "current_chunk": 6,
+  "last_processed_sample": 6000,
+  "total_samples_processed": 6001,
+  "current_chunk": 7,
   "latest_model_name": "mt5-neural-forge-websrc-c005-20250831_065642",
   "latest_model_version": 5,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T07:06:44.979580",
+  "last_update_time": "2025-08-31T07:06:46.113463",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T07:06:44.979589",
-    "last_saved_to_hub": "2025-08-31T07:06:45.567384"
+    "last_device_update": "2025-08-31T07:06:46.113469",
+    "last_saved_to_hub": "2025-08-31T07:06:46.617354"
   },
   "dataset_progress": {
     "websrc": {
@@ -70,7 +70,8 @@
       "total_samples_processed": 16000,
       "current_chunk": 7,
       "completion_percentage": 37.5,
-      "last_updated": "2025-08-31T07:06:44.979503"
+      "last_updated": "2025-08-31T07:06:44.979503",
+      "last_sample": 6000
     }
   },
   "model_history": [
