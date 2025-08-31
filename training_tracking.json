@@ -3,9 +3,9 @@
   "last_processed_sample": 6000,
   "total_samples_processed": 6001,
   "current_chunk": 7,
-  "latest_model_name": "mt5-synaptic-core-websrc-c008-20250831_045358",
+  "latest_model_name": "mt5-synaptic-core-websrc-c008-20250831_045355",
   "training_start_time": "2025-08-31T01:21:55.243098",
-  "last_update_time": "2025-08-31T04:54:18.502987",
+  "last_update_time": "2025-08-31T04:59:37.327212",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -60,9 +60,9 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T04:54:18.502996",
+    "last_device_update": "2025-08-31T04:59:37.327225",
     "last_saved_to_github": "2025-08-31T01:28:46.406188",
-    "last_saved_to_hub": "2025-08-31T04:54:19.147985",
+    "last_saved_to_hub": "2025-08-31T04:59:37.927948",
     "loaded_from": "fallback_persistent_local",
     "needs_hub_sync": true,
     "recovery_successful": true
@@ -93,6 +93,22 @@
       },
       "repo_path": "models/mt5-synaptic-core-websrc-c008-20250831_045358",
       "training_session_id": "session_20250831_012155"
+    },
+    {
+      "model_name": "mt5-neural-nexus-websrc-c009-20250831_045921",
+      "chunk_number": 9,
+      "dataset_name": "websrc",
+      "timestamp": "2025-08-31T04:59:37.323083",
+      "upload_time": "2025-08-31T04:59:37.323085",
+      "samples_trained": 6001,
+      "metrics": {
+        "upload_time": "2025-08-31T04:59:37.323069",
+        "model_path": "models/mt5-neural-nexus-websrc-c009-20250831_045921",
+        "local_path": "./model_chunk_9",
+        "milestone_finetunings": 6
+      },
+      "repo_path": "models/mt5-neural-nexus-websrc-c009-20250831_045921",
+      "training_session_id": "session_20250831_012155"
     }
   ],
   "training_sessions": [
@@ -105,12 +121,7 @@
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "models/mt5-synaptic-core-websrc-c008-20250831_045358",
+  "last_model_path": "models/mt5-neural-nexus-websrc-c009-20250831_045921",
   "next_action": "continue",
-  "successful_finetunings_count": 6,
-  "last_updated": "2025-08-31T04:59:20.374362",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 6
 }
