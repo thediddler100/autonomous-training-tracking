@@ -10,8 +10,8 @@
       "loss": 0.5
     }
   },
-  "successful_finetunings_count": 0,
-  "last_updated": "2025-08-31T06:42:34.743498",
+  "successful_finetunings_count": 1,
+  "last_updated": "2025-08-31T06:47:16.843708",
   "upload_trigger_count": 3,
   "cleanup_trigger_count": 22,
   "last_uploaded_model": null,
