@@ -3,10 +3,10 @@
   "last_processed_sample": 3000,
   "total_samples_processed": 3001,
   "current_chunk": 4,
-  "latest_model_name": "google/flan-t5-base",
+  "latest_model_name": "mt5-neural-forge-websrc-c005-20250831_065644",
   "latest_model_version": 0,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T06:57:02.417295",
+  "last_update_time": "2025-08-31T06:57:03.966923",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T06:57:02.417304",
-    "last_saved_to_hub": "2025-08-31T06:57:03.328242"
+    "last_device_update": "2025-08-31T06:57:03.966929",
+    "last_saved_to_hub": "2025-08-31T06:57:05.023810"
   },
   "dataset_progress": {
     "websrc": {
