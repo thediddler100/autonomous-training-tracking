@@ -9,5 +9,11 @@
       "samples_processed": 100,
       "loss": 0.5
     }
-  }
+  },
+  "successful_finetunings_count": 5,
+  "last_updated": "2025-08-31T04:49:12.963073",
+  "upload_trigger_count": 3,
+  "cleanup_trigger_count": 22,
+  "last_uploaded_model": null,
+  "auto_upload_enabled": true
 }
