@@ -139,5 +139,10 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-synaptic-core-websrc-c008-20250831_052158",
   "next_action": "continue",
-  "successful_finetunings_count": 6
+  "successful_finetunings_count": 6,
+  "last_updated": "2025-08-31T05:27:17.885421",
+  "upload_trigger_count": 3,
+  "cleanup_trigger_count": 22,
+  "last_uploaded_model": null,
+  "auto_upload_enabled": true
 }
