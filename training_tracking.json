@@ -6,7 +6,7 @@
   "latest_model_name": "google/flan-t5-base",
   "latest_model_version": 0,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T06:52:04.248437",
+  "last_update_time": "2025-08-31T06:57:02.417295",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T06:52:04.248446",
-    "last_saved_to_hub": "2025-08-31T06:52:04.834632"
+    "last_device_update": "2025-08-31T06:57:02.417304",
+    "last_saved_to_hub": "2025-08-31T06:57:03.328242"
   },
   "dataset_progress": {
     "websrc": {
@@ -74,7 +74,24 @@
       "last_sample": 3000
     }
   },
-  "model_history": [],
+  "model_history": [
+    {
+      "model_name": "mt5-neural-forge-websrc-c005-20250831_065644",
+      "chunk_number": 5,
+      "dataset_name": "websrc",
+      "timestamp": "2025-08-31T06:57:02.412935",
+      "upload_time": "2025-08-31T06:57:02.412938",
+      "samples_trained": 3001,
+      "metrics": {
+        "upload_time": "2025-08-31T06:57:02.412921",
+        "model_path": "models/mt5-neural-forge-websrc-c005-20250831_065644",
+        "local_path": "./model_chunk_5",
+        "milestone_finetunings": 3
+      },
+      "repo_path": "models/mt5-neural-forge-websrc-c005-20250831_065644",
+      "training_session_id": "session_20250831_063802"
+    }
+  ],
   "training_sessions": [
     {
       "session_id": "session_20250831_063802",
@@ -85,12 +102,7 @@
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "",
+  "last_model_path": "models/mt5-neural-forge-websrc-c005-20250831_065644",
   "next_action": "continue",
-  "successful_finetunings_count": 3,
-  "last_updated": "2025-08-31T06:56:43.823895",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 3
 }
