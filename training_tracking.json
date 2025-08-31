@@ -1,12 +1,12 @@
 {
   "session_id": "session_20250831_063802",
-  "last_processed_sample": 8000,
-  "total_samples_processed": 8001,
-  "current_chunk": 9,
+  "last_processed_sample": 9000,
+  "total_samples_processed": 9001,
+  "current_chunk": 10,
   "latest_model_name": "mt5-synaptic-core-websrc-c008-20250831_071126",
   "latest_model_version": 6,
   "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-08-31T07:21:26.510484",
+  "last_update_time": "2025-08-31T07:21:30.105306",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-08-31T07:21:26.510492",
-    "last_saved_to_hub": "2025-08-31T07:21:29.466944"
+    "last_device_update": "2025-08-31T07:21:30.105312",
+    "last_saved_to_hub": "2025-08-31T07:21:30.706724"
   },
   "dataset_progress": {
     "websrc": {
@@ -70,7 +70,8 @@
       "total_samples_processed": 19000,
       "current_chunk": 10,
       "completion_percentage": 47.368421052631575,
-      "last_updated": "2025-08-31T07:21:26.510412"
+      "last_updated": "2025-08-31T07:21:26.510412",
+      "last_sample": 9000
     }
   },
   "model_history": [
