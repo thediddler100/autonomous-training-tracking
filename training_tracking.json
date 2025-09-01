@@ -1,0 +1,127 @@
+{
+  "session_id": "session_20250901_043213",
+  "last_processed_sample": 9000,
+  "total_samples_processed": 9001,
+  "current_chunk": 8,
+  "latest_model_name": "mt5-websrc-chunk6-20250901_050544",
+  "latest_model_version": 2,
+  "training_start_time": "2025-09-01T04:32:13.333618",
+  "last_update_time": "2025-09-01T05:50:53.668890",
+  "completed_datasets": [],
+  "current_dataset": "websrc",
+  "training_metrics": {
+    "last_loss": 0.0,
+    "best_loss": 0.0
+  },
+  "system_info": {
+    "accelerator": "GPU",
+    "config": {
+      "batch_size": 8,
+      "gradient_accumulation_steps": 2,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "max_grad_norm": 1.0,
+      "fp16": true,
+      "bf16": false,
+      "dataloader_num_workers": 4,
+      "remove_unused_columns": true,
+      "use_compile": false,
+      "save_safetensors": true,
+      "use_lora": false,
+      "multi_gpu": true,
+      "gpu_count": 2,
+      "identical_gpus": true,
+      "ddp_find_unused_parameters": false,
+      "ddp_bucket_cap_mb": 25,
+      "dataloader_pin_memory": true
+    },
+    "device_agnostic_tracking": true,
+    "workspace_version": "2.0",
+    "created_with_persistence": true,
+    "current_accelerator": "GPU",
+    "current_config": {
+      "batch_size": 8,
+      "gradient_accumulation_steps": 2,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "max_grad_norm": 1.0,
+      "fp16": true,
+      "bf16": false,
+      "dataloader_num_workers": 4,
+      "remove_unused_columns": true,
+      "use_compile": false,
+      "save_safetensors": true,
+      "use_lora": false,
+      "multi_gpu": true,
+      "gpu_count": 2,
+      "identical_gpus": true,
+      "ddp_find_unused_parameters": false,
+      "ddp_bucket_cap_mb": 25,
+      "dataloader_pin_memory": true
+    },
+    "last_device_update": "2025-09-01T05:50:53.668898",
+    "last_saved_to_hub": "2025-09-01T05:50:54.079125",
+    "loaded_from": "fallback_persistent_local",
+    "recovery_successful": true,
+    "needs_hub_sync": true
+  },
+  "dataset_progress": {
+    "websrc": {
+      "last_processed_sample": 9000,
+      "total_samples_processed": 19000,
+      "current_chunk": 8,
+      "completion_percentage": 47.368421052631575,
+      "last_update_time": "2025-09-01T05:15:48.325581",
+      "last_sample": 9000
+    }
+  },
+  "model_history": [
+    {
+      "model_name": "mt5-websrc-chunk3-20250901_045103",
+      "chunk_number": 3,
+      "dataset_name": "websrc",
+      "timestamp": "2025-09-01T04:51:20.956307",
+      "upload_time": "2025-09-01T04:51:20.956311",
+      "samples_trained": 3001,
+      "metrics": {
+        "upload_time": "2025-09-01T04:51:20.956291",
+        "model_path": "models/mt5-websrc-chunk3-20250901_045103",
+        "local_path": "./model_chunk_3",
+        "milestone_finetunings": 3
+      },
+      "repo_path": "models/mt5-websrc-chunk3-20250901_045103",
+      "training_session_id": "session_20250901_043213"
+    },
+    {
+      "model_name": "mt5-websrc-chunk6-20250901_050546",
+      "chunk_number": 6,
+      "dataset_name": "websrc",
+      "timestamp": "2025-09-01T05:06:05.989354",
+      "upload_time": "2025-09-01T05:06:05.989358",
+      "samples_trained": 6001,
+      "metrics": {
+        "upload_time": "2025-09-01T05:06:05.989339",
+        "model_path": "models/mt5-websrc-chunk6-20250901_050546",
+        "local_path": "./model_chunk_6",
+        "milestone_finetunings": 6
+      },
+      "repo_path": "models/mt5-websrc-chunk6-20250901_050546",
+      "training_session_id": "session_20250901_043213"
+    }
+  ],
+  "training_sessions": [
+    {
+      "session_id": "session_20250901_043213",
+      "start_time": "2025-09-01T04:32:13.333633",
+      "dataset": "websrc",
+      "status": "active",
+      "accelerator": "GPU"
+    }
+  ],
+  "workspace_version": "2.0",
+  "last_model_path": "models/mt5-websrc-chunk6-20250901_050546",
+  "next_action": "continue",
+  "successful_finetunings_count": 9
+}
