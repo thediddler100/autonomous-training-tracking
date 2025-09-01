@@ -6,7 +6,7 @@
   "latest_model_name": "google/flan-t5-base",
   "latest_model_version": 0,
   "training_start_time": "2025-09-01T06:43:28.315853",
-  "last_update_time": "2025-09-01T06:57:30.761147",
+  "last_update_time": "2025-09-01T06:57:31.972925",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T06:57:30.761157",
-    "last_saved_to_hub": "2025-09-01T06:57:31.412375"
+    "last_device_update": "2025-09-01T06:57:31.972936",
+    "last_saved_to_hub": "2025-09-01T06:57:32.683892"
   },
   "dataset_progress": {
     "websrc": {
