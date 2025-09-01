@@ -6,7 +6,7 @@
   "latest_model_name": "mt5-websrc-chunk5-20250901_062543",
   "latest_model_version": 1,
   "training_start_time": "2025-09-01T05:54:54.324082",
-  "last_update_time": "2025-09-01T06:26:03.283184",
+  "last_update_time": "2025-09-01T06:26:04.354622",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T06:26:03.283193",
-    "last_saved_to_hub": "2025-09-01T06:26:03.823433"
+    "last_device_update": "2025-09-01T06:26:04.354631",
+    "last_saved_to_hub": "2025-09-01T06:26:04.738649"
   },
   "dataset_progress": {
     "websrc": {
