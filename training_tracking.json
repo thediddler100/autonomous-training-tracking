@@ -1,12 +1,12 @@
 {
   "session_id": "session_20250901_043213",
-  "last_processed_sample": 6000,
-  "total_samples_processed": 6001,
-  "current_chunk": 5,
-  "latest_model_name": "mt5-websrc-chunk6-20250901_050546",
-  "latest_model_version": 1,
+  "last_processed_sample": 8000,
+  "total_samples_processed": 8001,
+  "current_chunk": 7,
+  "latest_model_name": "mt5-websrc-chunk6-20250901_050544",
+  "latest_model_version": 2,
   "training_start_time": "2025-09-01T04:32:13.333618",
-  "last_update_time": "2025-09-01T05:15:44.484219",
+  "last_update_time": "2025-09-01T05:15:48.325652",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,17 +61,16 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T05:06:07.136977",
-    "last_saved_to_hub": "2025-09-01T05:06:07.627207"
+    "last_device_update": "2025-09-01T05:15:48.325661",
+    "last_saved_to_hub": "2025-09-01T05:15:49.232895"
   },
   "dataset_progress": {
     "websrc": {
-      "last_processed_sample": 6000,
-      "total_samples_processed": 16000,
-      "current_chunk": 5,
-      "completion_percentage": 37.5,
-      "last_update_time": "2025-09-01T05:01:00.036416",
-      "last_sample": 6000
+      "last_processed_sample": 9000,
+      "total_samples_processed": 19000,
+      "current_chunk": 8,
+      "completion_percentage": 47.368421052631575,
+      "last_update_time": "2025-09-01T05:15:48.325581"
     }
   },
   "model_history": [
@@ -120,9 +119,5 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-websrc-chunk6-20250901_050546",
   "next_action": "continue",
-  "successful_finetunings_count": 8,
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 9
 }
