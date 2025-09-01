@@ -155,5 +155,10 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-cognitive-engine-websrc-c011-20250901_031359",
   "next_action": "continue",
-  "successful_finetunings_count": 9
+  "successful_finetunings_count": 9,
+  "last_updated": "2025-09-01T03:14:32.212453",
+  "upload_trigger_count": 3,
+  "cleanup_trigger_count": 22,
+  "last_uploaded_model": null,
+  "auto_upload_enabled": true
 }
