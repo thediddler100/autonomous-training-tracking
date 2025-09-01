@@ -3,10 +3,10 @@
   "last_processed_sample": 6000,
   "total_samples_processed": 6001,
   "current_chunk": 5,
-  "latest_model_name": "mt5-websrc-chunk5-20250901_062543",
+  "latest_model_name": "mt5-websrc-chunk6-20250901_063059",
   "latest_model_version": 1,
   "training_start_time": "2025-09-01T05:54:54.324082",
-  "last_update_time": "2025-09-01T06:31:15.650048",
+  "last_update_time": "2025-09-01T06:31:17.208363",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T06:31:15.650057",
-    "last_saved_to_hub": "2025-09-01T06:31:16.569839"
+    "last_device_update": "2025-09-01T06:31:17.208373",
+    "last_saved_to_hub": "2025-09-01T06:31:17.927963"
   },
   "dataset_progress": {
     "websrc": {
