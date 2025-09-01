@@ -3,10 +3,10 @@
   "last_processed_sample": 3000,
   "total_samples_processed": 3001,
   "current_chunk": 2,
-  "latest_model_name": "google/flan-t5-base",
+  "latest_model_name": "mt5-websrc-chunk3-20250901_045103",
   "latest_model_version": 0,
   "training_start_time": "2025-09-01T04:32:13.333618",
-  "last_update_time": "2025-09-01T04:51:20.960460",
+  "last_update_time": "2025-09-01T04:51:22.186306",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T04:51:20.960469",
-    "last_saved_to_hub": "2025-09-01T04:51:21.534622"
+    "last_device_update": "2025-09-01T04:51:22.186317",
+    "last_saved_to_hub": "2025-09-01T04:51:22.720765"
   },
   "dataset_progress": {
     "websrc": {
