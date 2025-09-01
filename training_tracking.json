@@ -3,10 +3,10 @@
   "last_processed_sample": 9000,
   "total_samples_processed": 9001,
   "current_chunk": 8,
-  "latest_model_name": "mt5-websrc-chunk8-20250901_091208",
-  "latest_model_version": 2,
+  "latest_model_name": "mt5-websrc-chunk8-20250901_091204",
+  "latest_model_version": 3,
   "training_start_time": "2025-09-01T07:44:10.793488",
-  "last_update_time": "2025-09-01T09:12:44.247679",
+  "last_update_time": "2025-09-01T09:39:51.335715",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -49,10 +49,9 @@
       "max_grad_norm": 1.0,
       "fp16": true,
       "bf16": false,
-      "dataloader_num_workers": 4,
+      "dataloader_num_workers": 8,
       "remove_unused_columns": true,
       "use_compile": false,
-      "save_safetensors": true,
       "use_lora": false,
       "multi_gpu": true,
       "gpu_count": 2,
@@ -61,9 +60,9 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T09:12:33.627147",
-    "last_saved_to_hub": "2025-09-01T09:12:34.398387",
-    "loaded_from": "github_primary",
+    "last_device_update": "2025-09-01T09:39:51.335726",
+    "last_saved_to_hub": "2025-09-01T09:39:52.482524",
+    "loaded_from": "fallback_workspace_root",
     "recovery_successful": true,
     "needs_hub_sync": true
   },
@@ -247,9 +246,5 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-websrc-chunk8-20250901_091208",
   "next_action": "continue",
-  "successful_finetunings_count": 9,
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 9
 }
