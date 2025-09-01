@@ -6,7 +6,7 @@
   "latest_model_name": "mt5-websrc-chunk2-20250901_065736",
   "latest_model_version": 0,
   "training_start_time": "2025-09-01T06:43:28.315853",
-  "last_update_time": "2025-09-01T06:57:59.369542",
+  "last_update_time": "2025-09-01T07:03:08.162358",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -124,5 +124,9 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-websrc-chunk2-20250901_065736",
   "next_action": "continue",
-  "successful_finetunings_count": 3
+  "successful_finetunings_count": 3,
+  "upload_trigger_count": 3,
+  "cleanup_trigger_count": 22,
+  "last_uploaded_model": null,
+  "auto_upload_enabled": true
 }
