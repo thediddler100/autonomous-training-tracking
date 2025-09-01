@@ -1,8 +1,90 @@
 {
-  "successful_finetunings_count": 2,
-  "last_update_time": "2025-09-01T11:04:13.716595",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "session_id": "session_20250901_105031",
+  "last_processed_sample": 2000,
+  "total_samples_processed": 2001,
+  "current_chunk": 1,
+  "latest_model_name": "google/flan-t5-base",
+  "latest_model_version": 0,
+  "training_start_time": "2025-09-01T10:50:31.022781",
+  "last_update_time": "2025-09-01T11:04:17.841809",
+  "completed_datasets": [],
+  "current_dataset": "websrc",
+  "training_metrics": {
+    "last_loss": 0.0,
+    "best_loss": 0.0
+  },
+  "system_info": {
+    "accelerator": "GPU",
+    "config": {
+      "batch_size": 8,
+      "gradient_accumulation_steps": 2,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "max_grad_norm": 1.0,
+      "fp16": true,
+      "bf16": false,
+      "dataloader_num_workers": 4,
+      "remove_unused_columns": true,
+      "use_compile": false,
+      "save_safetensors": true,
+      "use_lora": false,
+      "multi_gpu": true,
+      "gpu_count": 2,
+      "identical_gpus": true,
+      "ddp_find_unused_parameters": false,
+      "ddp_bucket_cap_mb": 25,
+      "dataloader_pin_memory": true
+    },
+    "device_agnostic_tracking": true,
+    "workspace_version": "2.0",
+    "created_with_persistence": true,
+    "current_accelerator": "GPU",
+    "current_config": {
+      "batch_size": 8,
+      "gradient_accumulation_steps": 2,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "max_grad_norm": 1.0,
+      "fp16": true,
+      "bf16": false,
+      "dataloader_num_workers": 4,
+      "remove_unused_columns": true,
+      "use_compile": false,
+      "save_safetensors": true,
+      "use_lora": false,
+      "multi_gpu": true,
+      "gpu_count": 2,
+      "identical_gpus": true,
+      "ddp_find_unused_parameters": false,
+      "ddp_bucket_cap_mb": 25,
+      "dataloader_pin_memory": true
+    },
+    "last_device_update": "2025-09-01T11:04:17.841818",
+    "last_saved_to_hub": "2025-09-01T11:04:19.975074"
+  },
+  "dataset_progress": {
+    "websrc": {
+      "last_processed_sample": 3000,
+      "total_samples_processed": 13000,
+      "current_chunk": 2,
+      "completion_percentage": 23.076923076923077,
+      "last_update_time": "2025-09-01T11:04:17.841742"
+    }
+  },
+  "model_history": [],
+  "training_sessions": [
+    {
+      "session_id": "session_20250901_105031",
+      "start_time": "2025-09-01T10:50:31.022802",
+      "dataset": "websrc",
+      "status": "active",
+      "accelerator": "GPU"
+    }
+  ],
+  "workspace_version": "2.0",
+  "last_model_path": "",
+  "next_action": "continue",
+  "successful_finetunings_count": 3
 }
