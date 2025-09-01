@@ -1,12 +1,12 @@
 {
-  "session_id": "session_20250901_033258",
-  "last_processed_sample": 3000,
-  "total_samples_processed": 3001,
-  "current_chunk": 4,
-  "latest_model_name": "mt5-websrc-chunk5-20250901_035257",
+  "session_id": "session_20250901_043213",
+  "last_processed_sample": 2000,
+  "total_samples_processed": 2001,
+  "current_chunk": 1,
+  "latest_model_name": "google/flan-t5-base",
   "latest_model_version": 0,
-  "training_start_time": "2025-09-01T03:32:58.285338",
-  "last_update_time": "2025-09-01T04:46:11.728988",
+  "training_start_time": "2025-09-01T04:32:13.333618",
+  "last_update_time": "2025-09-01T04:46:15.496167",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,53 +61,30 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T03:53:15.429709",
-    "last_saved_to_hub": "2025-09-01T03:53:16.060639"
+    "last_device_update": "2025-09-01T04:46:15.496179",
+    "last_saved_to_hub": "2025-09-01T04:46:16.262912"
   },
   "dataset_progress": {
     "websrc": {
       "last_processed_sample": 3000,
       "total_samples_processed": 13000,
-      "current_chunk": 4,
+      "current_chunk": 2,
       "completion_percentage": 23.076923076923077,
-      "last_updated": "2025-09-01T03:47:54.725027",
-      "last_sample": 3000
+      "last_update_time": "2025-09-01T04:46:15.496073"
     }
   },
-  "model_history": [
-    {
-      "model_name": "mt5-websrc-chunk5-20250901_035257",
-      "chunk_number": 5,
-      "dataset_name": "websrc",
-      "timestamp": "2025-09-01T03:53:14.151033",
-      "upload_time": "2025-09-01T03:53:14.151035",
-      "samples_trained": 3001,
-      "metrics": {
-        "upload_time": "2025-09-01T03:53:14.151019",
-        "model_path": "models/mt5-websrc-chunk5-20250901_035257",
-        "local_path": "./model_chunk_5",
-        "milestone_finetunings": 3
-      },
-      "repo_path": "models/mt5-websrc-chunk5-20250901_035257",
-      "training_session_id": "session_20250901_033258"
-    }
-  ],
+  "model_history": [],
   "training_sessions": [
     {
-      "session_id": "session_20250901_033258",
-      "start_time": "2025-09-01T03:32:58.285357",
+      "session_id": "session_20250901_043213",
+      "start_time": "2025-09-01T04:32:13.333633",
       "dataset": "websrc",
       "status": "active",
       "accelerator": "GPU"
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "models/mt5-websrc-chunk5-20250901_035257",
+  "last_model_path": "",
   "next_action": "continue",
-  "successful_finetunings_count": 2,
-  "last_updated": "2025-09-01T03:53:24.678060",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 3
 }
