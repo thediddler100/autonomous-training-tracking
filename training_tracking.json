@@ -6,7 +6,7 @@
   "latest_model_name": "mt5-websrc-chunk8-20250901_082948",
   "latest_model_version": 2,
   "training_start_time": "2025-09-01T07:44:10.793488",
-  "last_update_time": "2025-09-01T09:12:07.305448",
+  "last_update_time": "2025-09-01T09:12:30.500065",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -49,9 +49,10 @@
       "max_grad_norm": 1.0,
       "fp16": true,
       "bf16": false,
-      "dataloader_num_workers": 8,
+      "dataloader_num_workers": 4,
       "remove_unused_columns": true,
       "use_compile": false,
+      "save_safetensors": true,
       "use_lora": false,
       "multi_gpu": true,
       "gpu_count": 2,
@@ -60,9 +61,9 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T09:03:31.857285",
-    "last_saved_to_hub": "2025-09-01T09:03:32.870990",
-    "loaded_from": "fallback_workspace_root",
+    "last_device_update": "2025-09-01T09:12:30.500087",
+    "last_saved_to_hub": "2025-09-01T09:12:32.263033",
+    "loaded_from": "github_primary",
     "recovery_successful": true,
     "needs_hub_sync": true
   },
@@ -216,6 +217,22 @@
       },
       "repo_path": "models/mt5-websrc-chunk8-20250901_082948",
       "training_session_id": "session_20250901_074410"
+    },
+    {
+      "model_name": "mt5-websrc-chunk8-20250901_091208",
+      "chunk_number": 8,
+      "dataset_name": "websrc",
+      "timestamp": "2025-09-01T09:12:30.494946",
+      "upload_time": "2025-09-01T09:12:30.494949",
+      "samples_trained": 9001,
+      "metrics": {
+        "upload_time": "2025-09-01T09:12:30.494930",
+        "model_path": "models/mt5-websrc-chunk8-20250901_091208",
+        "local_path": "./model_chunk_8",
+        "milestone_finetunings": 9
+      },
+      "repo_path": "models/mt5-websrc-chunk8-20250901_091208",
+      "training_session_id": "session_20250901_074410"
     }
   ],
   "training_sessions": [
@@ -228,11 +245,7 @@
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "models/mt5-websrc-chunk8-20250901_082948",
+  "last_model_path": "models/mt5-websrc-chunk8-20250901_091208",
   "next_action": "continue",
-  "successful_finetunings_count": 9,
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 9
 }
