@@ -104,5 +104,10 @@
   "workspace_version": "2.0",
   "last_model_path": "models/mt5-websrc-chunk5-20250901_035257",
   "next_action": "continue",
-  "successful_finetunings_count": 3
+  "successful_finetunings_count": 3,
+  "last_updated": "2025-09-01T03:53:24.678060",
+  "upload_trigger_count": 3,
+  "cleanup_trigger_count": 22,
+  "last_uploaded_model": null,
+  "auto_upload_enabled": true
 }
