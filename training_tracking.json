@@ -6,7 +6,7 @@
   "latest_model_name": "mt5-websrc-chunk2-20250901_060948",
   "latest_model_version": 0,
   "training_start_time": "2025-09-01T05:54:54.324082",
-  "last_update_time": "2025-09-01T06:15:05.958392",
+  "last_update_time": "2025-09-01T06:15:27.193116",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,8 +61,8 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T06:10:11.328080",
-    "last_saved_to_hub": "2025-09-01T06:10:11.889113"
+    "last_device_update": "2025-09-01T06:15:27.193122",
+    "last_saved_to_hub": "2025-09-01T06:15:27.785765"
   },
   "dataset_progress": {
     "websrc": {
@@ -110,6 +110,22 @@
       },
       "repo_path": "models/mt5-websrc-chunk2-20250901_060948",
       "training_session_id": "session_20250901_055454"
+    },
+    {
+      "model_name": "mt5-websrc-chunk3-20250901_061506",
+      "chunk_number": 3,
+      "dataset_name": "websrc",
+      "timestamp": "2025-09-01T06:15:27.189149",
+      "upload_time": "2025-09-01T06:15:27.189152",
+      "samples_trained": 3001,
+      "metrics": {
+        "upload_time": "2025-09-01T06:15:27.189136",
+        "model_path": "models/mt5-websrc-chunk3-20250901_061506",
+        "local_path": "./model_chunk_3",
+        "milestone_finetunings": 3
+      },
+      "repo_path": "models/mt5-websrc-chunk3-20250901_061506",
+      "training_session_id": "session_20250901_055454"
     }
   ],
   "training_sessions": [
@@ -122,11 +138,7 @@
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "models/mt5-websrc-chunk2-20250901_060948",
+  "last_model_path": "models/mt5-websrc-chunk3-20250901_061506",
   "next_action": "continue",
-  "successful_finetunings_count": 3,
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 3
 }
