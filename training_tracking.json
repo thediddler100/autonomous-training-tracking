@@ -1,12 +1,12 @@
 {
-  "session_id": "session_20250831_063802",
-  "last_processed_sample": 9000,
-  "total_samples_processed": 9001,
-  "current_chunk": 10,
-  "latest_model_name": "mt5-cognitive-engine-websrc-c011-20250901_031359",
-  "latest_model_version": 7,
-  "training_start_time": "2025-08-31T06:38:02.425071",
-  "last_update_time": "2025-09-01T03:14:22.066667",
+  "session_id": "session_20250901_033258",
+  "last_processed_sample": 2000,
+  "total_samples_processed": 2001,
+  "current_chunk": 3,
+  "latest_model_name": "google/flan-t5-base",
+  "latest_model_version": 0,
+  "training_start_time": "2025-09-01T03:32:58.285338",
+  "last_update_time": "2025-09-01T03:47:54.725144",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
@@ -61,104 +61,30 @@
       "ddp_bucket_cap_mb": 25,
       "dataloader_pin_memory": true
     },
-    "last_device_update": "2025-09-01T03:14:22.066677",
-    "last_saved_to_hub": "2025-09-01T03:14:22.846732",
-    "loaded_from": "fallback_workspace_root",
-    "needs_hub_sync": true,
-    "recovery_successful": true
+    "last_device_update": "2025-09-01T03:47:54.725154",
+    "last_saved_to_hub": "2025-09-01T03:47:55.559399"
   },
   "dataset_progress": {
     "websrc": {
-      "last_processed_sample": 9000,
-      "total_samples_processed": 19000,
-      "current_chunk": 10,
-      "completion_percentage": 47.368421052631575,
-      "last_updated": "2025-08-31T07:21:26.510412",
-      "last_sample": 9000
+      "last_processed_sample": 3000,
+      "total_samples_processed": 13000,
+      "current_chunk": 4,
+      "completion_percentage": 23.076923076923077,
+      "last_updated": "2025-09-01T03:47:54.725027"
     }
   },
-  "model_history": [
-    {
-      "model_name": "mt5-neural-forge-websrc-c005-20250831_065644",
-      "chunk_number": 5,
-      "dataset_name": "websrc",
-      "timestamp": "2025-08-31T06:57:02.412935",
-      "upload_time": "2025-08-31T06:57:02.412938",
-      "samples_trained": 3001,
-      "metrics": {
-        "upload_time": "2025-08-31T06:57:02.412921",
-        "model_path": "models/mt5-neural-forge-websrc-c005-20250831_065644",
-        "local_path": "./model_chunk_5",
-        "milestone_finetunings": 3
-      },
-      "repo_path": "models/mt5-neural-forge-websrc-c005-20250831_065644",
-      "training_session_id": "session_20250831_063802"
-    },
-    {
-      "model_name": "mt5-synaptic-core-websrc-c008-20250831_071129",
-      "chunk_number": 8,
-      "dataset_name": "websrc",
-      "timestamp": "2025-08-31T07:11:43.725578",
-      "upload_time": "2025-08-31T07:11:43.725581",
-      "samples_trained": 6001,
-      "metrics": {
-        "upload_time": "2025-08-31T07:11:43.725564",
-        "model_path": "models/mt5-synaptic-core-websrc-c008-20250831_071129",
-        "local_path": "./model_chunk_8",
-        "milestone_finetunings": 6
-      },
-      "repo_path": "models/mt5-synaptic-core-websrc-c008-20250831_071129",
-      "training_session_id": "session_20250831_063802"
-    },
-    {
-      "model_name": "mt5-cognitive-engine-websrc-c011-20250831_072612",
-      "chunk_number": 11,
-      "dataset_name": "websrc",
-      "timestamp": "2025-08-31T07:26:28.123086",
-      "upload_time": "2025-08-31T07:26:28.123088",
-      "samples_trained": 9001,
-      "metrics": {
-        "upload_time": "2025-08-31T07:26:28.123078",
-        "model_path": "models/mt5-cognitive-engine-websrc-c011-20250831_072612",
-        "local_path": "./model_chunk_11",
-        "milestone_finetunings": 9
-      },
-      "repo_path": "models/mt5-cognitive-engine-websrc-c011-20250831_072612",
-      "training_session_id": "session_20250831_063802"
-    },
-    {
-      "model_name": "mt5-cognitive-engine-websrc-c011-20250901_031359",
-      "chunk_number": 11,
-      "dataset_name": "websrc",
-      "timestamp": "2025-09-01T03:14:20.491308",
-      "upload_time": "2025-09-01T03:14:20.491312",
-      "samples_trained": 9001,
-      "metrics": {
-        "upload_time": "2025-09-01T03:14:20.491293",
-        "model_path": "models/mt5-cognitive-engine-websrc-c011-20250901_031359",
-        "local_path": "./model_chunk_11",
-        "milestone_finetunings": 9
-      },
-      "repo_path": "models/mt5-cognitive-engine-websrc-c011-20250901_031359",
-      "training_session_id": "session_20250831_063802"
-    }
-  ],
+  "model_history": [],
   "training_sessions": [
     {
-      "session_id": "session_20250831_063802",
-      "start_time": "2025-08-31T06:38:02.425086",
+      "session_id": "session_20250901_033258",
+      "start_time": "2025-09-01T03:32:58.285357",
       "dataset": "websrc",
       "status": "active",
       "accelerator": "GPU"
     }
   ],
   "workspace_version": "2.0",
-  "last_model_path": "models/mt5-cognitive-engine-websrc-c011-20250901_031359",
+  "last_model_path": "",
   "next_action": "continue",
-  "successful_finetunings_count": 2,
-  "last_updated": "2025-09-01T03:47:50.934037",
-  "upload_trigger_count": 3,
-  "cleanup_trigger_count": 22,
-  "last_uploaded_model": null,
-  "auto_upload_enabled": true
+  "successful_finetunings_count": 3
 }
