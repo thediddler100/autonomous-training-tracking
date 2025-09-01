@@ -6,7 +6,7 @@
   "latest_model_name": "google/flan-t5-base",
   "latest_model_version": 0,
   "training_start_time": "2025-09-01T10:18:18.319276",
-  "last_update_time": "2025-09-01T10:38:24.045872",
+  "last_update_time": "2025-09-01T10:43:33.292737",
   "completed_datasets": [],
   "current_dataset": "websrc",
   "training_metrics": {
